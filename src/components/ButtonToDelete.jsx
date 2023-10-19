@@ -1,11 +1,11 @@
 
-const ButtonToDelete = () => {
-  return (
-    <button 
-    >
-        BORRAR PERSONAJE
-    </button>
-  )
-}
+const ButtonToDelete = ({ onDelete, characterId }) => {
 
-export default ButtonToDelete
+  return (
+    <button onClick={() => onDelete(characterId)}>
+      DELETE CHARACTER
+    </button>
+  );
+};
+
+export default ButtonToDelete;

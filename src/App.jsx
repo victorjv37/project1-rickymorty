@@ -1,5 +1,5 @@
 import './App.css'
-import Cards from './components/Cards'
+import CardCreator from './components/CardCreator'
 import ButtonToShow from './components/ButtonToShow'
 import { useState } from 'react';
 import HeaderComponent from './components/HeaderComponent';
@@ -12,7 +12,7 @@ function App() {
     <div>
         <HeaderComponent />
         {visible && 
-        <Cards />
+        <CardCreator />
         }
       <div>
         <ButtonToShow setVisibleProp={setVisible} visibleProp={visible}/>

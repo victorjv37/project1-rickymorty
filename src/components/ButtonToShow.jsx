@@ -6,7 +6,7 @@ const ButtonToShow = ({ setVisibleProp, visibleProp }) => {
           setVisibleProp(!visibleProp);
         }}
       >
-        PINCHA AQUÍ!
+        SHOW THEM!
       </button>
     </>
   );
